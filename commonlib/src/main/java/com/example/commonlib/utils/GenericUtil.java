@@ -37,7 +37,7 @@ public class GenericUtil {
         } catch (ClassCastException e) {
             e.printStackTrace();
         }
-        LogUtil.d(o,"return null");
+        LogUtil.d(o, "return null");
         return null;
     }
 

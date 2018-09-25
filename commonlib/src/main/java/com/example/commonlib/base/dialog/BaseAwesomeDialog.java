@@ -116,7 +116,7 @@ public abstract class BaseAwesomeDialog extends DialogFragment {
             //设置dialog高度
             if (height == 0) {
                 lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
-            } else if(height == Integer.MAX_VALUE - 1){
+            } else if (height == Integer.MAX_VALUE - 1) {
                 lp.height = WindowManager.LayoutParams.MATCH_PARENT;
             } else {
                 lp.height = UIUtil.dip2px(getContext(), height);
